@@ -1,0 +1,33 @@
+compress - Compress Video
+merge - Merge Video
+watermark - Add Watermark To Video
+convert - Convert Video
+hardmux - Hardmux Video
+softmux - Softmux Video
+softremux - Softremux Video
+gensample - Generate Sample Video
+genss - Generate Screenshots
+changemetadata - Change Video Metadata
+changeindex - Change Index Or Remove Stream
+mirror - Mirror File
+leech - Leech File
+savewatermark - Save Watermark Image
+savethumb - Save Static Thumbnail
+saveconfig - Save Rclone Config
+tasklimit - Change Task Limit
+status - Check Process Status
+log - Get Log Message
+logs - Get Log File
+renew - Renew Storage
+resetdb - Reset Database
+changeconfig - Change Bot Config
+clearconfigs - Restore To Default Config
+addsudo - Add Sudo User
+delsudo - Delete Sudo User
+checksudo - Check Sudo Users
+time - Get Bot Uptime
+stats - Get Stats
+speedtest - SpeedTest
+settings - Settings Section
+restart - Restart Bot
+herokurestart - Restart Heroku Dyno

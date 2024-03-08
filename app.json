@@ -1,0 +1,14 @@
+{
+  "name": "VideoFlux2",
+  "description": "Bot With Muti Features",
+  "website": "https://t.me/nik66",
+  "repository": "https://github.com/sahilgit55/VideoFlux2_Beta",
+  "logo": "https://cdn.wapka.org/007cic/d976484d086b76a4ec858ba2fc260b03/myapp.jpg",
+  "env": {
+    "CONFIG_FILE_URL": {
+      "description": "Direct URL Of Config File ",
+      "required": "true",
+      "value": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    volumes:
+      - .:/app
+    restart: always
+    command: sh start.sh
+    ports:
+      - 8000:8000

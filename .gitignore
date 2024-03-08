@@ -1,0 +1,15 @@
+*.session
+__pycache__/
+*.session-journal
+*.session
+tempCodeRunnerFile.py
+Logging.txt
+test.py
+userdata/
+test1.py
+test2.py
+test3.py
+ext.txt
+dcw
+aria2_download.py
+config.env
