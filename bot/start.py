@@ -40,6 +40,7 @@ if not isdir('./userdata'):
 sudo_users = Config.SUDO_USERS
 owner_id = Config.OWNER_ID
 allowed_chats = Config.ALLOWED_CHATS
+auth_chat = Config.AUTH_GROUP_ID
 TELETHON_CLIENT = Telegram.TELETHON_CLIENT
 LOGGER = Config.LOGGER
 SAVE_TO_DATABASE = Config.SAVE_TO_DATABASE
@@ -197,7 +198,7 @@ def user_auth_checker(event):
         if event.message.sender.id == owner_id:
             return True
     else:
-        if event.message.sender.id in sudo_users or event.message.sender.id in allowed_chats or event.message.sender.id == owner_id:
+        if event.message.sender.id in sudo_users or event.message.sender.id in allowed_chats or event.message.sender.id == owner_id or event.chat.id == auth_chat:
             return True
     return False
 
